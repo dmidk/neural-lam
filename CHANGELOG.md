@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Add option to provide user-defined run name via CLI. [\#1](https://github.com/dmidk/neural-lam/pull/1)
+
+- Log evaluation images to `save_dir` and create folder if needed. [\#2](https://github.com/dmidk/neural-lam/pull/2)
+
 - Add support for MLFlow logging and metrics tracking. [\#77](https://github.com/mllam/neural-lam/pull/77)
   @khintz
 
