@@ -62,7 +62,7 @@ class CustomMLFlowLogger(pl.loggers.MLFlowLogger):
         # mlflow.log_image, should do this automatically, but is buggy
         if not os.path.exists(self.save_dir):
             os.makedirs(self.save_dir)
-        path = f"{key}.png"
+        path = f"{self.save_dir}/{key}.png"
         images[0].savefig(path)
 
         img = Image.open(path)
